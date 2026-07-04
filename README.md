@@ -1,4 +1,4 @@
-# SurviveNJU-CS | 南京大学泛 CS 学习指南
+# SurviveNJU-CS | 面向南京大学泛 CS 同学的非官方学习资源索引
 
 <p align="center">
   <strong>🎓 南京大学泛 CS 方向的非官方学习、生存与发展指南</strong>
