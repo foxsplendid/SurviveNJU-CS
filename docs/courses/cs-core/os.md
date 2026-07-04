@@ -9,7 +9,7 @@
 
 ## 🌟 课程简介与地位
 
-由蒋炎岩老师主讲的南京大学《操作系统：设计与实现》课程，在 CS 自学社区中评价很高，也常被 [csdiy.wiki](https://csdiy.wiki) 等自学指南推荐。它和 MIT 6.S081、UCB CS162 一样，适合作为操作系统方向的高强度实践课程参考。
+由蒋炎岩老师主讲的南京大学《操作系统：设计与实现》课程，在 CS 自学社区中评价很高，也被 [csdiy.wiki](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJUOS/) 收录为操作系统方向课程之一。它和 MIT 6.S081、UCB CS162 一样，适合作为操作系统方向的高强度实践课程参考。
 
 不同于传统教材枯燥地背诵“操作系统的四大功能、死锁的四个必要条件”，这门课从全新的视角切入：
 
@@ -22,7 +22,7 @@
 
 ## 🛠️ 实验体系：OSLab & MiniLab
 
-本课程的实验难度极大，包含两个并行开展的实验模块：
+本课程的实验通常包含 MiniLab 与 OSLab 两类模块；具体数量、评测方式和开放范围以当年课程主页为准。
 
 ### 1. MiniLab (微型实验)
 旨在让你通过少量的、极具技巧性的代码解决具体的操作系统核心概念问题：
@@ -56,7 +56,8 @@
 
 ## 🔗 课程资源大本营
 
-*   🌐 **[jyy Wiki 官方主页](https://jyywiki.cn/)**：蒋炎岩老师的个人课程 Wiki。**这里存放了历年 OS 课的全套幻灯片（采用极具现代感的 HTML-based Slide 制作）、教学视频链接、讲义以及实验要求**。这是你自学和复习的第一入口。
+*   🌐 **[jyy Wiki 官方主页](https://jyywiki.cn/)**：蒋炎岩老师的个人课程 Wiki，存放课程幻灯片、讲义、实验要求和相关链接，是自学和复习的第一入口。
+*   🧭 **[CS 自学指南：NJU OS](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJUOS/)**：第三方课程介绍，概括了先修要求、课程特色、MiniLab/OSLab 体验和公开资源。其个人体验和年份信息仅供参考。
 *   🎥 **[Bilibili 历年录播视频](https://search.bilibili.com/all?keyword=南京大学蒋炎岩操作系统)**：蒋老师讲课极其激情，包含了大量生动的动画演示和手写代码 live coding，在 B 站拥有极高播放量。
 *   ⚙️ **[os-workbench-2022 实验仓库](https://github.com/NJU-ProjectN/os-workbench-2022)**：往期 OSLab 实验代码参考仓库。
 *   📚 **[经典自学教材：OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)**：《操作系统导论》（Three Easy Pieces），这本教材以三个部分（虚拟化、并发、持久化）清晰阐述了 OS 本质，且提供免费在线阅读。

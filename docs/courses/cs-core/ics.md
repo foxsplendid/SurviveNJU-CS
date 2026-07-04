@@ -9,11 +9,11 @@
 
 ## 🌟 课程简介与地位
 
-《计算机系统基础》（Introduction to Computer Systems, 简称 ICS）是南京大学计算机系乃至全校泛CS专业**最核心、最硬核的王牌奠基课之一**。本课程旨在回答一个最根本的问题：
+《计算机系统基础》（Introduction to Computer Systems, 简称 ICS）是南京大学计算机系和泛 CS 方向中非常重要的系统基础课之一。本课程旨在回答一个最根本的问题：
 
 > **“高级语言编写的程序，是如何在一台由晶体管组成的计算机系统上跑起来的？”**
 
-本课程的理论部分涵盖了数据的二进制表示、程序的机器级表示（x86/RISC-V 汇编）、CPU 译码与执行流、存储层次结构（Cache）、虚拟存储空间管理以及简单链接器。
+本课程的理论部分通常涵盖数据的二进制表示、程序的机器级表示（x86/RISC-V 汇编）、CPU 译码与执行流、存储层次结构（Cache）、虚拟存储空间管理以及简单链接器。具体 ISA、教材和实验分支可能随教学班调整，应以当年课程主页和教师通知为准。
 
 而本课程的精髓，在于由南大系统组自主开发的 **Project-N (PA) 实验**。
 
@@ -46,18 +46,23 @@ PA (Programming Assignment) 要求你亲手用 C 语言编写一个名为 **NEMU
 
 ## 💡 必考复习考点与实验攻略
 
-1.  **RTFM (Read The F**king Manual)**：
-    *   这是 PA 指导书上出现频率最高的词。PA 指导书里隐藏了大量的技术细节和实现提示。遇到 Bug，90% 的原因都是因为你漏掉了指导书中的某一句关键描述。
+1.  **RTFM (Read The Manual)**：
+    *   PA 指导书里包含大量技术细节、实现提示和调试建议。遇到 Bug 时，先回到指导书和手册核对前提，往往比盲目搜索更有效。
 2.  **熟练使用 GDB 调试**：
     *   PA 代码量巨大（数千行），且涉及指针和内存的直接操作。学会使用 GDB 设置断点、查看内存、跟踪调用栈是你的生存保障。不要只依赖 `printf` 调试，否则很容易在复杂状态机和内存问题上失控。
 3.  **理解状态机 (State Machine)**：
     *   计算机是一个确定的状态机。程序在 NEMU 里跑崩溃了，说明在某一步状态转换（如指令执行、寄存器修改）中发生了预期外的改变。通过比对你的模拟器输出的客户程序执行流与标准执行流（如 GDB/QEMU），可以快速定位导致状态异常的那条指令。
 
+### 第三方经验入口
+
+*   **[ICS Wiki 课程页](https://njuics-wiki.github.io/ics-wiki/Course/ICS/)**：由学生维护的课程经验页面，整理了 ICS 的成绩构成示例、大班/小班差异、PA 分支和考试经验。该页面中的班级组合、比例和给分情况具有年份依赖性，只适合作为经验参考。
+*   **[CS 自学指南：计算机系统基础方向](https://csdiy.wiki/)**：将 ICS 对标到 CSAPP/CMU 15-213、Stanford CS110 等系统基础公开课。适合在南大课程之外补充 Data Lab、Bomb Lab、Cache Lab 等经典实验，但不要用外部实验替代校内 PA。
+
 ---
 
 ## 🔗 核心课程资源链接
 
-*   📖 **[ICS PA 官方实验指导书](https://nju-projectn.github.io/ics-pa-gitbook/)**：必读的圣经。
+*   📖 **[ICS PA 官方实验指导书](https://nju-projectn.github.io/ics-pa-gitbook/)**：PA 实验的主要入口。
 *   🖥️ **[NJU-ProjectN 官方 GitHub 组织](https://github.com/NJU-ProjectN)**：存放实验框架（NEMU, Abstract-Machine）的基地。
 *   🎥 **[Bilibili 蒋炎岩老师公开课视频](https://search.bilibili.com/all?keyword=南京大学计算机系统基础)**：强烈建议观看配套视频，蒋老师的讲课风格风趣幽默，直击系统底层的本质。
 *   📚 **[经典参考书：CSAPP](https://csapp.cs.cmu.edu)**：《深入理解计算机系统》（Randal E. Bryant 著），课程主要参考教材。

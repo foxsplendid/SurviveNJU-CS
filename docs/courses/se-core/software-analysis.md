@@ -15,6 +15,8 @@
 
 本课程的公开视频、教材和实验在静态分析自学圈中有较高知名度。其实验体系基于南大自主开发并开源的 **Tai-e (太阿) 静态分析框架**，大作业要求你亲自动手实现从指针分析到安全缺陷检测的各个分析模块。
 
+[CS 自学指南](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/) 将 NJU 软件分析列入“编程语言设计与分析”方向的课程资源。阅读外部课程评价时，要注意区分课程官网、开源教材、Tai-e 框架、在线评测和学生经验帖：前几者可作为学习入口，后者只能作为体验参考。
+
 ---
 
 ## 📚 核心理论与 Tai-e 实验
@@ -57,3 +59,4 @@
 *   🖥️ **[Tai-e (太阿) 官方 GitHub 仓库](https://github.com/pascal-lab/Tai-e)**：南大开源的静态程序分析核心框架。
 *   ⚙️ **[Tai-e Assignments 实验框架](https://github.com/pascal-lab/Tai-e-assignments)**：课程配套的静态分析实验作业脚手架代码仓库。
 *   🎥 **[Bilibili 静态程序分析公开课视频](https://search.bilibili.com/all?keyword=南京大学软件分析)**：李樾和谭添老师的录制视频，适合作为课前预习和课后复习材料。
+*   🧭 **[CS 自学指南：NJU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/)**：第三方课程介绍，概括了先修要求、Java 实验、Tai-e 作业和在线评测入口，用于快速定位这门课与 Stanford CS242、PKU 软件分析等课程的相对位置。
