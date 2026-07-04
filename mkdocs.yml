@@ -1,0 +1,177 @@
+site_name: SurviveNJU-CS | 南京大学泛CS学习指南
+site_url: https://your-username.github.io/SurviveNJU-CS/
+site_description: 南京大学计算机科学及相关专业学习指南 — 一本百科全书式的学习、生存与发展手册
+site_author: SurviveNJU-CS Contributors
+repo_name: SurviveNJU-CS
+repo_url: https://github.com/your-username/SurviveNJU-CS
+
+copyright: >
+  本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a> 许可证。
+  本站为公益性质的聚合平台，仅为更好地服务南京大学在校同学。
+
+theme:
+  name: material
+  language: zh
+  favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/SurviveNJU-CS
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - 首页: index.md
+
+  - 序言:
+    - preface/index.md
+    - 声明与免责: preface/disclaimer.md
+    - 贡献指南: preface/contributing.md
+
+  - 新生入门:
+    - getting-started/index.md
+    - 泛CS专业概览: getting-started/cs-overview.md
+    - 转专业完全指南: getting-started/major-transfer.md
+    - 正确的学习思维: getting-started/mindset.md
+    - 信息素养与资源获取: getting-started/info-literacy.md
+
+  - 学业生存:
+    - academics/index.md
+    - 选课策略与技巧: academics/course-selection.md
+    - GPA与绩点解读: academics/gpa-guide.md
+    - 期末备考攻略: academics/exam-prep.md
+    - 学术诚信: academics/academic-integrity.md
+
+  - 课程攻略:
+    - courses/index.md
+    - 计算机系核心课程:
+      - courses/cs-core/index.md
+      - 计算机系统基础 (ICS): courses/cs-core/ics.md
+      - 操作系统: courses/cs-core/os.md
+      - 数据结构与算法: courses/cs-core/data-structures.md
+      - 编译原理: courses/cs-core/compiler.md
+      - 计算机网络: courses/cs-core/networks.md
+      - 数据库系统: courses/cs-core/database.md
+      - 软件工程: courses/cs-core/software-eng.md
+      - 计算机组成原理: courses/cs-core/computer-organization.md
+    - 人工智能学院核心:
+      - courses/ai-core/index.md
+      - 机器学习导论: courses/ai-core/ml-intro.md
+      - 深度学习: courses/ai-core/deep-learning.md
+      - 自然语言处理: courses/ai-core/nlp.md
+      - 计算机视觉: courses/ai-core/cv.md
+      - 知识表示与处理: courses/ai-core/knowledge-repr.md
+    - 软件学院核心:
+      - courses/se-core/index.md
+      - 软件工程与计算: courses/se-core/se-computing.md
+      - 软件分析: courses/se-core/software-analysis.md
+      - 软件测试: courses/se-core/software-testing.md
+    - 数理基础:
+      - courses/math-foundation/index.md
+      - 高等数学与数学分析: courses/math-foundation/calculus.md
+      - 线性代数: courses/math-foundation/linear-algebra.md
+      - 概率论与数理统计: courses/math-foundation/probability.md
+      - 离散数学: courses/math-foundation/discrete-math.md
+    - 通识课推荐:
+      - courses/general-education/index.md
+
+  - 资源导航:
+    - resources/index.md
+    - GitHub 资源仓库大全: resources/github-repos.md
+    - 在线课程推荐: resources/online-courses.md
+    - 实用工具集: resources/tools.md
+    - 推荐书单: resources/books.md
+    - 往年考试卷: resources/past-exams.md
+    - 论文模板: resources/thesis-templates.md
+
+  - 升学与就业:
+    - career/index.md
+    - 考研指南: career/postgrad-exam.md
+    - 保研经验: career/recommendation.md
+    - 出国留学与飞跃手册: career/study-abroad.md
+    - 实习与求职: career/internship.md
+    - 科研入门: career/research.md
+
+  - 实验室导航:
+    - labs/index.md
+
+  - 校园生活:
+    - campus-life/index.md
+    - 社团与技术组织: campus-life/clubs.md
+    - 竞赛指南: campus-life/competition.md
+    - 心理健康与压力管理: campus-life/mental-health.md

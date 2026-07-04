@@ -1,0 +1,40 @@
+/* SurviveNJU-CS 自定义样式 */
+
+/* 首页 Hero 区域 */
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+/* 表格优化 */
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* 标签徽章 */
+.badge {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  font-size: 0.75em;
+  font-weight: 700;
+  border-radius: 0.25em;
+  margin-right: 0.3em;
+}
+.badge-star { background: #f39c12; color: white; }
+.badge-hot  { background: #e74c3c; color: white; }
+.badge-new  { background: #27ae60; color: white; }
+.badge-cs   { background: #2980b9; color: white; }
+.badge-ai   { background: #8e44ad; color: white; }
+.badge-se   { background: #16a085; color: white; }
+
+/* 课程卡片行 */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
