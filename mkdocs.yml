@@ -1,6 +1,6 @@
 site_name: SurviveNJU-CS | 南京大学泛CS学习指南
 site_url: https://foxsplendid.github.io/SurviveNJU-CS/
-site_description: 南京大学计算机科学及相关专业学习指南 — 一本百科全书式的学习、生存与发展手册
+site_description: 南京大学泛 CS 方向的非官方学习、生存与发展指南
 site_author: SurviveNJU-CS Contributors
 repo_name: SurviveNJU-CS
 repo_url: https://github.com/foxsplendid/SurviveNJU-CS
@@ -12,7 +12,7 @@ copyright: >
 theme:
   name: material
   language: zh
-  favicon: assets/favicon.png
+  favicon: assets/images/favicon.png
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -156,7 +156,7 @@ nav:
     - 在线课程推荐: resources/online-courses.md
     - 实用工具集: resources/tools.md
     - 推荐书单: resources/books.md
-    - 往年考试卷: resources/past-exams.md
+    - 往年考试与复习资源: resources/past-exams.md
     - 论文模板: resources/thesis-templates.md
 
   - 升学与就业:
