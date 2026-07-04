@@ -10,10 +10,12 @@
 
 作为南大在校生，以下几款由本校同学开发或官方提供的工具能大幅提升你的日常效率：
 
-### 📅 课表一键导入日历：nju-schedule-ics
-*   **用途**：将教服平台杂乱的课表，一键导出为标准的 `.ics` 文件，直接导入 iPhone、安卓或 Outlook 日历。
-*   **使用方式**：访问 [SuperKenVery/nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics) 克隆代码，或使用基于网页的在线转换工具。
-*   **效果**：实现上课前 15 分钟日历弹窗自动提醒，支持显示上课教室和授课教师。
+### 📅 课表一键导入日历：nju-schedule-ics & NJU-Calendar-Importer-Flutter
+*   **用途**：将教服平台杂乱的课表，一键导出导入至系统日历，提醒你上课时间与地点。
+*   **使用工具**：
+    *   👉 **[nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics)**：基于命令行/在线转换，生成标准的 `.ics` 文件，适用于导入 iPhone、安卓或 Outlook 日历。
+    *   👉 **[NJU-Calendar-Importer-Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter)**：采用 Flutter 编写的跨平台课表导入客户端，界面精美，能优雅且极其便捷地将南大课表一键直接解析导入。
+*   **效果**：实现上课前 15 分钟日历弹窗自动提醒，支持显示上课教室和授课教师，极大减轻手动录入的琐碎感。
 
 ### 📥 教学立方批量课件下载：PedagogySquare_Downloader
 *   **用途**：期末复习时，一页一页下载教学立方上的 PPT 课件极其繁琐。该工具支持一键批量抓取下载。

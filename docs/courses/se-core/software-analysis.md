@@ -53,5 +53,7 @@
 ## 🔗 推荐资源
 
 *   🌐 **[南大《软件分析》课程官方网站](https://pascal-group.bitbucket.io/pas.html)**：存放全套 Slides 和 Assignment 要求的官网。
-*   🖥️ **[Tai-e (太阿) 官方 GitHub 仓库](https://github.com/pascal-lab/Tai-e)**：南大开源的静态程序分析框架。
+*   📖 **[《静态程序分析》开源教科书](https://github.com/RangerNJU/Static-Program-Analysis-Book)**：⭐ **课程官方配套的开源书籍项目**，基于李樾、谭添老师课程内容整理，自学程序分析的最佳文字指南。
+*   🖥️ **[Tai-e (太阿) 官方 GitHub 仓库](https://github.com/pascal-lab/Tai-e)**：南大开源的静态程序分析核心框架。
+*   ⚙️ **[Tai-e Assignments 实验框架](https://github.com/pascal-lab/Tai-e-assignments)**：课程配套的静态分析实验作业脚手架代码仓库。
 *   🎥 **[Bilibili 静态程序分析公开课视频](https://search.bilibili.com/all?keyword=南京大学软件分析)**：李樾和谭添老师的录制视频，制作极其精良，被誉为国内最好的静态分析自学课。

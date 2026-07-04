@@ -17,6 +17,11 @@
 | **njucs-past-exam** | [NijikaIjichi/njucs-past-exam](https://github.com/NijikaIjichi/njucs-past-exam) | 南京大学计算机系往年期末考试试卷的专项收集与整理。 | 开源 |
 | **NJU_assignments** | [xonoer/NJU_assignments](https://github.com/xonoer/NJU_assignments) | 作者整理的本科期间多门数理基础和计算机核心课程的作业参考。 | 开源 |
 | **NJU-Review** | [haolin-nju/NJU-Review](https://github.com/haolin-nju/NJU-Review) | 期末考试复习笔记，包含多门计算机系专业课。 | 开源 |
+| **CS-Major-Switch** | [Nopthon/How-to-switch-to-a-CS-major-at-NJU](https://github.com/Nopthon/How-to-switch-to-a-CS-major-at-NJU) | ⭐ **南京大学转专业到计算机科学与技术系经验指南**，含详细流程与备考心得。 | 开源 |
+| **nju-class** | [carottX/nju-class](https://github.com/carottX/nju-class) | 个人整理的南部分课程实验和复习资料。 | 开源 |
+| **NJUCS (retiaw)** | [retiaw/NJUCS](https://github.com/retiaw/NJUCS) | 学生整理的南大计算机系核心课（含数理基础和专业课）的复习与往年卷汇总。 | 开源 |
+| **Linear-algebra** | [starwinks/Linear-algebra](https://github.com/starwinks/Linear-algebra) | 南大 2024 年秋季学期线性代数（第一层次）高分学习笔记。 | 开源 |
+| **NJUCS-YikaiZhang-Branch** | [kniter1/NJUCS-Course-Material-from-YikaiZhang](https://github.com/kniter1/NJUCS-Course-Material-from-YikaiZhang) | 由 YikaiZhang 课程库衍生出的转专业备份分支，内置大量转专业笔试题及解答。 | 开源 |
 
 ---
 
@@ -43,6 +48,7 @@
 | **NJUSE-20-SE1** | [YDJSIR-NJU/NJUSE-20-SE1](https://github.com/YDJSIR-NJU/NJUSE-20-SE1) | 软件工程与计算 I 的个人作业代码、实验及复习心得。 | MIT |
 | **NJUSE-21-SE2** | [YDJSIR-NJU/NJUSE-21-SE2](https://github.com/YDJSIR-NJU/NJUSE-21-SE2) | 软件工程与计算 II 课程笔记、团队协作大作业模板与踩坑笔记。 | MIT |
 | **NJU_SE_ThesisWritingTips** | [iSEngLab/NJU_SE_ThesisWritingTips](https://github.com/iSEngLab/NJU_SE_ThesisWritingTips) | 软件工程研究所整理的软院毕业设计与学位论文书写规范建议。 | 开源 |
+| **njuse-gitbook** | [coxine/njuse-gitbook](https://github.com/coxine/njuse-gitbook) | ⭐ **南软佛脚玩乐指南**，专属于南京大学软件学院的复习及求学经验总结。 | 开源 |
 
 ---
 
@@ -55,6 +61,8 @@
 | **NJU-ProjectN** | [NJU-ProjectN](https://github.com/NJU-ProjectN) | ⭐ **南大计算机系统王牌课程组官方组织**。包含 NEMU 模拟器、Abstract-Machine、Nanos-lite。 | ICS 与 OS 实验的大本营。 |
 | **courses-at-nju-by-hfwei** | [courses-at-nju-by-hfwei](https://github.com/courses-at-nju-by-hfwei) | 魏恒峰老师团队维护的系列核心课程讲义与思考题（离散数学、编译原理、C语言等）。 | 讲义质量极其优异。 |
 | **os-workbench-2022** | [os-workbench-2022](https://github.com/NJU-ProjectN/os-workbench-2022) | 蒋炎岩老师操作系统课程实验代码测试框架。 | 并发与系统实验工具。 |
+| **Static-Analysis-Book** | [RangerNJU/Static-Program-Analysis-Book](https://github.com/RangerNJU/Static-Program-Analysis-Book) | ⭐ **《静态程序分析》开源教科书**，李樾、谭添老师软件分析课程的官方配套自学读本。 | 极具全国自学知名度。 |
+| **Tai-e-assignments** | [pascal-lab/Tai-e-assignments](https://github.com/pascal-lab/Tai-e-assignments) | 南大 Tai-e (太阿) 静态分析大作业的官方脚手架框架。 | 静态分析实践首选。 |
 
 ---
 
@@ -90,4 +98,7 @@
 | **NJUThesis** | [nju-lug/NJUThesis](https://github.com/nju-lug/NJUThesis) | ⭐ **南大学位论文 LaTeX 模板**（支持本硕博），已收录于 CTAN。由南大 Linux 用户协会维护。 |
 | **modern-nju-thesis** | [nju-lug/modern-nju-thesis](https://github.com/nju-lug/modern-nju-thesis) | 采用下一代排版语言 **Typst** 编写的现代化南大学位论文模板。 |
 | **nju-schedule-ics** | [SuperKenVery/nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics) | 课表转换工具，支持将南大教服平台的课表一键导出为 iCalendar 格式，导入手机日历。 |
+| **NJU-Calendar-Importer-Flutter** | [121mc/NJU_Calendar_Importer_Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter) | ⭐ **南大课表导入日历应用**，采用 Flutter 编写，支持优雅且极其便捷地将南大课表一键导入日历。 |
 | **PedagogySquare_Downloader** | [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) | 教学立方辅助下载工具，支持一键批量下载课程的所有课件 PPT 与作业要求。 |
+| **NJUlogin** | [Do1e/NJUlogin](https://github.com/Do1e/NJUlogin) | 南京大学统一身份认证登录模块，可用于开发校内各种爬虫、日历转换等。 |
+| **nannahelper-docs** | [nannahelper/docs](https://github.com/nannahelper/docs) | 南哪助手文档，针对南大学生的新手教程与辅助工具开发文档。 |
