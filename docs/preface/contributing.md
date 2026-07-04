@@ -23,7 +23,7 @@ SurviveNJU-CS 是一个靠社区共同维护的活文档——它的价值，来
 
 ### 第一步：Fork 仓库
 
-前往 [SurviveNJU-CS 主仓库](https://github.com/SurviveNJU-CS/SurviveNJU-CS)，点击右上角 **Fork** 按钮，将仓库 Fork 到你自己的 GitHub 账号下。
+前往 [SurviveNJU-CS 主仓库](https://github.com/foxsplendid/SurviveNJU-CS)，点击右上角 **Fork** 按钮，将仓库 Fork 到你自己的 GitHub 账号下。
 
 ### 第二步：Clone 到本地
 
@@ -196,7 +196,7 @@ docs/
 
 ## Issue 提交规范
 
-如果你不打算直接修改文件，可以通过 [提交 Issue](https://github.com/SurviveNJU-CS/SurviveNJU-CS/issues/new) 来参与：
+如果你不打算直接修改文件，可以通过 [提交 Issue](https://github.com/foxsplendid/SurviveNJU-CS/issues/new) 来参与：
 
 请在 Issue 标题前加上对应标签前缀，方便分类：
 

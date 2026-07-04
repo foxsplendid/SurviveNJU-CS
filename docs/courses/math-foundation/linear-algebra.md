@@ -50,7 +50,7 @@
 
 ## 🔗 推荐资源
 
-*   🎥 **经典公开课：MIT 18.06**：Gilbert Strang 教授主讲的 MIT 线性代数公开课。**这是全球公认讲得最好的线性代数课程**。Strang 教授极其注重矩阵的几何解释 and 应用（如四大子空间、SVD 分解），强烈推荐阅读其配套教材《Introduction to Linear Algebra》。
+*   🎥 **经典公开课：MIT 18.06**：Gilbert Strang 教授主讲的 MIT 线性代数公开课，是自学社区中常被推荐的线性代数课程。Strang 教授极其注重矩阵的几何解释和应用（如四大子空间、SVD 分解），可配合其教材《Introduction to Linear Algebra》阅读。
 *   🎥 **科普视频系列：《线性代数的本质》**（3Blue1Brown, B站汉化版）：用直观的动态视频动画展示向量、矩阵乘法、特征值的几何含义，常被称为“线代救星”。
 *   💻 **[Linear-algebra 24fall 课程笔记](https://github.com/starwinks/Linear-algebra)**：南大学生整理的 2024 年秋季学期线性代数（第一层次）高分学习笔记。
 *   💻 **[NJUCS (retiaw) 课程复习库](https://github.com/retiaw/NJUCS)**：由学生整理的南大计算机系核心课（含线性代数等数理基础）的复习与往年卷收集库。

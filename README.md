@@ -8,7 +8,7 @@
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">
     <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg" alt="License">
   </a>
-  <a href="https://github.com/your-username/SurviveNJU-CS/pulls">
+  <a href="https://github.com/foxsplendid/SurviveNJU-CS/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
   </a>
 </p>
@@ -38,7 +38,7 @@
 > 🚧 在线站点正在建设中，敬请期待。
 
 <!-- 部署后取消注释 -->
-<!-- 👉 **[点击此处在线阅读](https://your-username.github.io/SurviveNJU-CS/)** -->
+<!-- 👉 **[点击此处在线阅读](https://foxsplendid.github.io/SurviveNJU-CS/)** -->
 
 ## 🤝 如何贡献
 
@@ -47,14 +47,14 @@
 ### 贡献方式
 
 1. **提交 Pull Request**：Fork 本仓库，修改或新增内容后提交 PR
-2. **提交 Issue**：对内容有疑问、建议或发现错误，请在 [Issue 区](https://github.com/your-username/SurviveNJU-CS/issues) 提出
+2. **提交 Issue**：对内容有疑问、建议或发现错误，请在 [Issue 区](https://github.com/foxsplendid/SurviveNJU-CS/issues) 提出
 3. **投稿经验分享**：如果你希望分享课程攻略、转专业经验、升学/求职经验等，请参考 [贡献指南](docs/preface/contributing.md)
 
 ### 本地开发
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/SurviveNJU-CS.git
+git clone https://github.com/foxsplendid/SurviveNJU-CS.git
 cd SurviveNJU-CS
 
 # 安装依赖

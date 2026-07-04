@@ -78,7 +78,7 @@ SurviveNJU-CS 就是为了打破这种信息孤岛而生的。我们受 SurviveS
 
 本指南托管在 GitHub，使用 MkDocs Material 构建，任何人都可以通过 Pull Request 来修正错误、补充内容、添加新章节。
 
-- 发现内容已过时？→ 提一个 [Issue](https://github.com/SurviveNJU-CS/SurviveNJU-CS/issues) 告诉我们
+- 发现内容已过时？→ 提一个 [Issue](https://github.com/foxsplendid/SurviveNJU-CS/issues) 告诉我们
 - 有新内容想贡献？→ 参考 [贡献指南](./contributing.md) 提交 PR
 - 不熟悉 GitHub？→ 把内容发给我们，编辑团队来帮你整理
 

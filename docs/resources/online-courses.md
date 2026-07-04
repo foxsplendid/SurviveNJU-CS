@@ -2,20 +2,20 @@
 
 「大学课堂上老师由于学时限制只能讲授最核心的框架。如果想真正融会贯通，参考国内外顶级名校的公开课、跟着写其配套实验（Labs），是快速跨越‘新手期’的捷径。」
 
-本篇指南为你汇总了南京大学本校名师的公开课，以及国内外公认质量最高的经典计算机网课。
+本篇指南汇总南京大学本校公开课程，以及国内外常被 CS 自学者推荐的经典公开课。
 
 ---
 
 ## 🏛️ 1. 南京大学本校经典公开课
 
-南大在操作系统、编译原理、离散数学等领域拥有多门深受全国学子好评的开源网课。
+南大在操作系统、编译原理、离散数学、静态分析等方向有多门公开教学资源，适合作为校内课程的补充。
 
 | 课程名称 | 主讲人 | 平台与获取方式 | 课程特色与建议 |
 | :--- | :--- | :--- | :--- |
-| **《操作系统：设计与实现》** | 蒋炎岩 (jyy) | [jyy Wiki](https://jyywiki.cn/) / Bilibili 搜索 | 🏆 **国内公认最好的操作系统网课**。从状态机和 API 视角讲授，配套极其硬核的 OSLab 实验，适合建立了 C 语言基础的同学进阶。 |
+| **《操作系统：设计与实现》** | 蒋炎岩 (jyy) | [jyy Wiki](https://jyywiki.cn/) / Bilibili 搜索 | 从状态机和 API 视角讲授，配套 OSLab/MiniLab 等实验，适合已经具备 C 语言基础的同学进阶。 |
 | **《计算机系统基础》 (ICS)** | 蒋炎岩 / 袁春风 | Bilibili 搜索 | 配套著名的 PA 模拟器实验，帮助从汇编、编译层面透彻理解计算机系统。 |
 | **《离散数学》** | 魏恒峰 | [GitHub 讲义](https://github.com/courses-at-nju-by-hfwei) / Bilibili | 理论极其严谨，配套的 slides 逻辑清晰，是训练数学证明思维的首选。 |
-| **《静态程序分析》** | 李樾 / 谭添 | [PASCAL 组官网](https://pascal-group.bitbucket.io/pas.html) / Bilibili | 🏆 **国际一流的静态分析课**。配套太阿 (Tai-e) 实验，非常硬核，适合大三有 Java 基础的同学。 |
+| **《静态程序分析》** | 李樾 / 谭添 | [PASCAL 组官网](https://pascal-group.bitbucket.io/pas.html) / Bilibili | 配套 Tai-e 实验和公开教材，理论与工程结合较强，适合大三以后、有 Java 基础的同学。 |
 
 ---
 
@@ -27,7 +27,7 @@
 *   **CSAPP / CMU 15-213: Introduction to Computer Systems**：
     *   **平台**：CMU 官网 / Bilibili
     *   **对标课程**：南大《计算机系统基础》
-    *   **推荐理由**：配套的 7 个经典实验（Data Lab, Bomb Lab, Attack Lab, Cache Lab 等）是全球计算机教育的最高标准。
+    *   **推荐理由**：配套 Data Lab、Bomb Lab、Attack Lab、Cache Lab 等经典实验，是系统方向自学的高质量补充。
 *   **MIT 6.S081: Operating System Engineering**：
     *   **平台**：MIT OCW / Bilibili
     *   **对标课程**：南大《操作系统》
@@ -35,7 +35,7 @@
 *   **Stanford CS144: Introduction to Computer Networking**：
     *   **平台**：斯坦福官网
     *   **对标课程**：南大《计算机网络》
-    *   **推荐理由**：大作业要求你用 C++ 手写一个完整的 TCP 协议栈，写完后你将对网络可靠传输有神级理解。
+    *   **推荐理由**：大作业要求用 C++ 实现 TCP 协议栈的一部分，适合加深对可靠传输和网络分层的理解。
 
 ### 🧮 算法与数学方向
 *   **MIT 6.006: Introduction to Algorithms**：
@@ -47,7 +47,7 @@
 *   **CS231n: Convolutional Neural Networks for Visual Recognition**：
     *   **平台**：斯坦福官网 / Bilibili
     *   **对标课程**：南大《计算机视觉》/《深度学习》
-    *   **推荐理由**：由李飞飞教授团队创立，大作业要求你不用深度学习框架，纯手写反向传播和卷积层，是打牢 DL 底子最好的课。
+    *   **推荐理由**：由李飞飞教授团队创立，早期作业强调手写反向传播和卷积层，适合打牢深度学习基础。
 *   **吴恩达 (Andrew Ng) 机器学习微专业**：
     *   **平台**：Coursera / Bilibili
     *   **推荐理由**：数学门槛低，直观展示算法作用，适合大一/大二零基础快速对 AI 建立全局认识。

@@ -1,9 +1,9 @@
 site_name: SurviveNJU-CS | 南京大学泛CS学习指南
-site_url: https://your-username.github.io/SurviveNJU-CS/
+site_url: https://foxsplendid.github.io/SurviveNJU-CS/
 site_description: 南京大学计算机科学及相关专业学习指南 — 一本百科全书式的学习、生存与发展手册
 site_author: SurviveNJU-CS Contributors
 repo_name: SurviveNJU-CS
-repo_url: https://github.com/your-username/SurviveNJU-CS
+repo_url: https://github.com/foxsplendid/SurviveNJU-CS
 
 copyright: >
   本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a> 许可证。
@@ -90,7 +90,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/SurviveNJU-CS
+      link: https://github.com/foxsplendid/SurviveNJU-CS
 
 extra_css:
   - assets/extra.css
@@ -152,7 +152,7 @@ nav:
 
   - 资源导航:
     - resources/index.md
-    - GitHub 资源仓库大全: resources/github-repos.md
+    - GitHub 公开资源索引: resources/github-repos.md
     - 在线课程推荐: resources/online-courses.md
     - 实用工具集: resources/tools.md
     - 推荐书单: resources/books.md

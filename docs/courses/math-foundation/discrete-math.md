@@ -50,12 +50,12 @@
     *   离散 II 的期末试卷中，**证明题占比极高**。比如：证明一个无向图是二部图的充要条件是其中不含有奇数长度的回路；或者利用欧拉公式证明某种特定平面图的边数限制。
     *   不要指望死记硬背证明。复习时，将课本中的重要定理的证明推演逻辑看懂，记住其构造性证明（如反证法、数学归纳法）的切入点。
 3.  **魏恒峰老师课程资料的利用**：
-    *   魏恒峰老师维护的 GitHub 课程仓库是南大离散学习的绝佳宝库。里面的讲义极为现代和扎实，配有清晰的推导步骤和课后习题讲解，一定要下载参考。
+    *   魏恒峰老师维护的 GitHub 课程仓库包含离散数学相关讲义和学习资料。复习时可结合当年课堂内容选择性参考。
 
 ---
 
 ## 🔗 推荐资源
 
 *   💻 **[courses-at-nju-by-hfwei 魏恒峰老师 GitHub 组织](https://github.com/courses-at-nju-by-hfwei)**：收录了魏老师亲自整理的离散数学核心讲义和思考题。
-*   📖 **参考书：《离散数学及其应用》**（Discrete Mathematics and Its Applications, Kenneth H. Rosen 著），全球公认最优秀的离散数学入门教材，配有极其丰富的应用实例，适合大一同学阅读。
+*   📖 **参考书：《离散数学及其应用》**（Discrete Mathematics and Its Applications, Kenneth H. Rosen 著），常见的离散数学入门教材，配有较丰富的应用实例，适合大一同学阅读。
 *   💻 **[NJU-Review-Materials 课程资料库](https://github.com/idealclover/NJU-Review-Materials)**：收录了南大历年离散数学的真题。

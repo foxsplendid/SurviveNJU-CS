@@ -45,5 +45,5 @@
 ## 🔗 推荐资源
 
 *   💻 **[courses-at-nju-by-hfwei 魏恒峰老师 GitHub 组织](https://github.com/courses-at-nju-by-hfwei)**：收录了离散数学、编译原理等课程的极高质量讲义与辅助学习资料。
-*   📖 **经典教材：龙书**：《编译原理》（Compilers: Principles, Techniques, and Tools, Alfred V. Aho 等著），编译领域的绝对圣经。
+*   📖 **经典教材：龙书**：《编译原理》（Compilers: Principles, Techniques, and Tools, Alfred V. Aho 等著），编译领域常见参考教材。
 *   📖 **经典教材：虎书**：《现代编译原理：C语言描述》（Modern Compiler Implementation in C, Andrew W. Appel 著），适合实践参考。

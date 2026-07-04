@@ -8,21 +8,22 @@
 
 ## 🏛️ 1. 南大专属实用工具
 
-作为南大在校生，以下几款由本校同学开发或官方提供的工具能大幅提升你的日常效率：
+作为南大在校生，以下几款由本校同学开发、公开维护或常被同学使用的工具，能减少一些重复操作：
 
 ### 📅 课表一键导入日历：nju-schedule-ics & NJU-Calendar-Importer-Flutter
-*   **用途**：将教服平台杂乱的课表，一键导出导入至系统日历，提醒你上课时间与地点。
+*   **用途**：将教服平台课表导出或转换后导入系统日历，提醒你上课时间与地点。
 *   **使用工具**：
     *   👉 **[nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics)**：基于命令行/在线转换，生成标准的 `.ics` 文件，适用于导入 iPhone、安卓或 Outlook 日历。
-    *   👉 **[NJU-Calendar-Importer-Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter)**：采用 Flutter 编写的跨平台课表导入客户端，界面精美，能优雅且极其便捷地将南大课表一键直接解析导入。
-*   **效果**：实现上课前 15 分钟日历弹窗自动提醒，支持显示上课教室和授课教师，极大减轻手动录入的琐碎感。
+    *   👉 **[NJU-Calendar-Importer-Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter)**：采用 Flutter 编写的跨平台课表导入客户端，可将南大课表解析导入日历。
+*   **效果**：可设置上课前日历提醒，部分工具支持显示上课教室和授课教师，减少手动录入。
 
 ### 📥 教学立方批量课件下载：PedagogySquare_Downloader
-*   **用途**：期末复习时，一页一页下载教学立方上的 PPT 课件极其繁琐。该工具支持一键批量抓取下载。
-*   **使用方式**：前往 [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) 释放页面下载运行包，输入教学立方账号即可批量导出。
+*   **用途**：辅助整理自己已选课程、且教学平台允许访问的资料。
+*   **使用边界**：仅应下载你本人有权限访问的课程资料，不得绕过访问控制，不得将教师课件、作业要求、试卷或其他受限资料二次公开传播。
+*   **使用方式**：前往 [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) 查看仓库说明和发布包，按项目文档操作。
 
 ### 🔒 南大 VPN 远程接入 (Ivanti / Pulse Secure)
-*   **用途**：在寒暑假离校、或在宿舍区连接非校园网时，必须连接南大官方 VPN 才能访问教服平台、教学立方或通过图书馆免费使用 IEEE Xplore 等数据库。
+*   **用途**：在校外访问部分校内系统或图书馆订阅数据库时，通常需要连接南大官方 VPN。
 *   **配置入口**：访问“南大信息化建设管理服务中心”，在服务指南中搜索“VPN”，根据操作系统下载对应的 Pulse Secure 客户端，并使用校内统一身份认证账号登录。
 
 ---
@@ -34,16 +35,16 @@
 | **Obsidian** | 笔记管理 | 纯文本、本地优先的 Markdown 知识库软件。支持双向链接，适合整理复杂的专业课脑图与知识网络。 | [Obsidian 官网](https://obsidian.md) |
 | **Zotero** | 文献检索 | 开源免费的论文管理利器。大二、大三做科研或写毕业设计时，可一键抓取网页端 PDF 和论文元数据。 | [Zotero 官网](https://www.zotero.org) |
 | **Anki** | 记忆卡片 | 采用间隔重复（Spaced Repetition）算法。适合期末前高强度记忆公共课概念、Linux 常用命令行及数学公式。 | [Anki 官网](https://apps.ankiweb.net) |
-| **Overleaf** | LaTeX 写作 | 在线的 LaTeX 编辑和协作平台。南大提供部分收费账户权限，适合与同学合作撰写报告或论文。 | [Overleaf 官网](https://www.overleaf.com) |
+| **Overleaf** | LaTeX 写作 | 在线的 LaTeX 编辑和协作平台，适合与同学合作撰写报告或论文；机构权限情况请以学校当前通知为准。 | [Overleaf 官网](https://www.overleaf.com) |
 
 ---
 
 ## 🛠️ 3. 开发环境与终端效率配置
 
 ### 1. Linux 环境搭建
-南大计算机系和软件学院的必修实验课（尤其是 ICS PA 和 操作系统 OSLab）**必须在 Linux 环境下完成**。我们强烈推荐以下搭建方案：
+南大泛CS方向的多门实验课（尤其是系统类课程）通常要求 Linux 或类 Unix 开发环境；具体系统版本和依赖请以课程实验指导为准。常见搭建方案如下：
 *   **方案一：WSL2 (Windows Subsystem for Linux)**（最推荐 Windows 用户）：
-    *   在 Windows 11 中一键安装 Ubuntu 子系统。它拥有极接近原生的运行效率，且可以直接与 Windows 的文件系统无缝互通，方便用 VS Code 直接编辑代码。
+    *   在 Windows 11 中安装 Ubuntu 子系统。它与 Windows 文件系统互通，方便用 VS Code 编辑和调试代码。
     *   **安装命令**：在 PowerShell 中执行 `wsl --install`。
 *   **方案二：双系统 (Dual Boot)**：
     *   如果电脑配置允许，可以直接在电脑上安装 Windows + Ubuntu 双系统，获得最纯粹的 Linux 硬件算力支持。

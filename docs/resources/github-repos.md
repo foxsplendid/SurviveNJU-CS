@@ -1,7 +1,10 @@
-# GitHub 资源仓库大全
+# GitHub 公开资源索引
 
 !!! note "公益与版权提醒"
-    本页面仅提供指向外部 GitHub 公共仓库的链接索引。各仓库的版权和授权协议（如 MIT、Apache 2.0、CC BY-NC-SA 4.0 等）均归原作者所有，请在参考其代码时严格遵守。本站不分发任何受版权保护的文件。
+    本页面仅提供指向外部 GitHub 公共仓库的链接索引，不托管、镜像或重新打包任何第三方文件。请在参考其代码、笔记、课件或试卷前，逐项查看原仓库的 `LICENSE`、README、课程组规则和文件来源说明。
+
+!!! warning "授权状态说明"
+    下表中的“授权/风险”只表示本站当前能看到的公开信息，不构成法律判断。课程资料仓库常混合代码、笔记、课件和试卷；即使仓库有开源许可证，也不必然覆盖所有文件。凡标注“待核验”的项目，只适合作为链接索引，不应复制、转载或二次分发其中内容。
 
 ---
 
@@ -9,19 +12,19 @@
 
 此类仓库由南大在校同学或毕业生自发发起，收录了多门必修与选修课的作业、实验报告、复习笔记等。
 
-| 仓库名称 | 链接与作者 | 覆盖范围与特色 | 已知授权协议 |
+| 仓库名称 | 链接与作者 | 覆盖范围与特色 | 授权/风险 |
 | :--- | :--- | :--- | :--- |
-| **NJUCS-Course-Material** | [zhangyikaii/NJUCS-Course-Material](https://github.com/zhangyikaii/NJUCS-Course-Material) | ⭐ **最知名的南大计算机系课程分享计划**，涵盖高级程序设计、数据结构、离散数学、ICS、OS、算法设计等多门必修课的大作业代码与实验报告。 | CC BY-NC-SA 4.0 |
-| **NJU-Review-Materials** | [idealclover/NJU-Review-Materials](https://github.com/idealclover/NJU-Review-Materials) | ⭐ **南哪课程复习资料**，涵盖商学院、计科、电子、数学等多学科的复习笔记、脑图及模拟题。 | MIT |
-| **njucs-LearningMaterials** | [njuxx/njucs-LearningMaterials](https://github.com/njuxx/njucs-LearningMaterials) | 汇总南大计算机学科教师出版教材、在线自学资源及各大王牌课程的在线链接。 | 开源 |
-| **njucs-past-exam** | [NijikaIjichi/njucs-past-exam](https://github.com/NijikaIjichi/njucs-past-exam) | 南京大学计算机系往年期末考试试卷的专项收集与整理。 | 开源 |
-| **NJU_assignments** | [xonoer/NJU_assignments](https://github.com/xonoer/NJU_assignments) | 作者整理的本科期间多门数理基础和计算机核心课程的作业参考。 | 开源 |
-| **NJU-Review** | [haolin-nju/NJU-Review](https://github.com/haolin-nju/NJU-Review) | 期末考试复习笔记，包含多门计算机系专业课。 | 开源 |
-| **CS-Major-Switch** | [Nopthon/How-to-switch-to-a-CS-major-at-NJU](https://github.com/Nopthon/How-to-switch-to-a-CS-major-at-NJU) | ⭐ **南京大学转专业到计算机科学与技术系经验指南**，含详细流程与备考心得。 | 开源 |
-| **nju-class** | [carottX/nju-class](https://github.com/carottX/nju-class) | 个人整理的南部分课程实验和复习资料。 | 开源 |
-| **NJUCS (retiaw)** | [retiaw/NJUCS](https://github.com/retiaw/NJUCS) | 学生整理的南大计算机系核心课（含数理基础和专业课）的复习与往年卷汇总。 | 开源 |
-| **Linear-algebra** | [starwinks/Linear-algebra](https://github.com/starwinks/Linear-algebra) | 南大 2024 年秋季学期线性代数（第一层次）高分学习笔记。 | 开源 |
-| **NJUCS-YikaiZhang-Branch** | [kniter1/NJUCS-Course-Material-from-YikaiZhang](https://github.com/kniter1/NJUCS-Course-Material-from-YikaiZhang) | 由 YikaiZhang 课程库衍生出的转专业备份分支，内置大量转专业笔试题及解答。 | 开源 |
+| **NJUCS-Course-Material** | [zhangyikaii/NJUCS-Course-Material](https://github.com/zhangyikaii/NJUCS-Course-Material) | 南大计算机相关课程分享计划，包含作业、实验报告、大作业代码及课程经验。 | README 标注 CC BY-NC-SA，GitHub 侧栏显示 CC-BY-SA-4.0；含课程作业与 PDF，逐文件授权需核验。 |
+| **NJU-Review-Materials** | [idealclover/NJU-Review-Materials](https://github.com/idealclover/NJU-Review-Materials) | “南哪课程复习资料”，覆盖多院系复习笔记、脑图和模拟题。 | 授权待核验；不要默认按 MIT 使用。 |
+| **njucs-LearningMaterials** | [njuxx/njucs-LearningMaterials](https://github.com/njuxx/njucs-LearningMaterials) | 汇总南大计算机学科学习材料、教材和在线自学资源链接。 | 链接索引为主；授权待核验。 |
+| **njucs-past-exam** | [NijikaIjichi/njucs-past-exam](https://github.com/NijikaIjichi/njucs-past-exam) | 南京大学计算机系往年卷收集项目。 | 含试卷内容，高风险；仅作外部链接索引。 |
+| **NJU_assignments** | [xonoer/NJU_assignments](https://github.com/xonoer/NJU_assignments) | 作者整理的本科期间作业、笔记或课程参考。 | 授权待核验；参考代码需遵守课程规则。 |
+| **NJU-Review** | [haolin-nju/NJU-Review](https://github.com/haolin-nju/NJU-Review) | 期末复习笔记，包含部分计算机系专业课。 | 授权待核验。 |
+| **CS-Major-Switch** | [Nopthon/How-to-switch-to-a-CS-major-at-NJU](https://github.com/Nopthon/How-to-switch-to-a-CS-major-at-NJU) | 南京大学转专业到计算机科学与技术相关经验指南。 | 经验帖；政策细节需回到当年本科生院公告核验。 |
+| **nju-class** | [carottX/nju-class](https://github.com/carottX/nju-class) | 个人整理的部分课程实验和复习资料。 | 授权待核验。 |
+| **NJUCS (retiaw)** | [retiaw/NJUCS](https://github.com/retiaw/NJUCS) | 学生整理的南大计算机系核心课复习与往年卷资料。 | 含课程资料风险；授权待核验。 |
+| **Linear-algebra** | [starwinks/Linear-algebra](https://github.com/starwinks/Linear-algebra) | 南大线性代数学习笔记。 | 授权待核验。 |
+| **NJUCS-YikaiZhang-Branch** | [kniter1/NJUCS-Course-Material-from-YikaiZhang](https://github.com/kniter1/NJUCS-Course-Material-from-YikaiZhang) | 从 YikaiZhang 课程库衍生的转专业资料备份分支。 | 含试题/经验资料风险；授权待核验。 |
 
 ---
 
@@ -29,12 +32,12 @@
 
 人工智能学院（仙林）及智能科学与技术学院（苏州）相关的专属课程资源。
 
-| 仓库名称 | 链接与作者 | 覆盖范围与特色 | 已知授权协议 |
+| 仓库名称 | 链接与作者 | 覆盖范围与特色 | 授权/风险 |
 | :--- | :--- | :--- | :--- |
-| **Resources** | [NJUIS-Students/Resources](https://github.com/NJUIS-Students/Resources) | 南京大学智能科学与技术学院（苏州校区）课程资料仓库，含课件、试卷与笔记。 | 开源 |
+| **Resources** | [NJUIS-Students/Resources](https://github.com/NJUIS-Students/Resources) | 南京大学智能科学与技术学院（苏州校区）课程资料仓库，含课件、试卷与笔记。 | GitHub 显示 GPL-3.0；仓库 README 要求上传前获得授课老师同意，含课件/试卷需谨慎。 |
 | **NJUIS-Students.github.io** | [NJUIS-Students/NJUIS-Students.github.io](https://github.com/NJUIS-Students/NJUIS-Students.github.io) | 智科院学生开源知识库与课程攻略平台，提供详尽的苏州校区生存指南。 | MIT |
-| **NJUAI_Learning_partial** | [JerrySiRi/NJUAI_Learning_partial](https://github.com/JerrySiRi/NJUAI_Learning_partial) | 整理了人工智能学院多门核心算法课（数据结构、机器学习、NLP）的代码和学习资料。 | 开源 |
-| **NJUAI-Notes** | [YuRuiii/NJUAI-Notes](https://github.com/YuRuiii/NJUAI-Notes) | 个人整理的 AI 学院本科阶段高分课程笔记。 | 开源 |
+| **NJUAI_Learning_partial** | [JerrySiRi/NJUAI_Learning_partial](https://github.com/JerrySiRi/NJUAI_Learning_partial) | 整理了人工智能学院部分课程的代码和学习资料。 | 授权待核验；参考代码需遵守课程规则。 |
+| **NJUAI-Notes** | [YuRuiii/NJUAI-Notes](https://github.com/YuRuiii/NJUAI-Notes) | 个人整理的 AI 学院本科阶段课程笔记。 | 授权待核验。 |
 
 ---
 
@@ -42,27 +45,27 @@
 
 软件学院（鼓楼/仙林）以团队大作业和软件工程实践著称。
 
-| 仓库名称 | 链接与作者 | 覆盖范围与特色 | 已知授权协议 |
+| 仓库名称 | 链接与作者 | 覆盖范围与特色 | 授权/风险 |
 | :--- | :--- | :--- | :--- |
-| **NJU-Software-Course-Materials** | [NJU-SEI/NJU-Software-Course-Materials](https://github.com/NJU-SEI/NJU-Software-Course-Materials) | 软件学院研究生核心课程资料汇总。 | 开源 |
+| **NJU-Software-Course-Materials** | [NJU-SEI/NJU-Software-Course-Materials](https://github.com/NJU-SEI/NJU-Software-Course-Materials) | 软件学院研究生核心课程资料汇总。 | 授权待核验。 |
 | **NJUSE-20-SE1** | [YDJSIR-NJU/NJUSE-20-SE1](https://github.com/YDJSIR-NJU/NJUSE-20-SE1) | 软件工程与计算 I 的个人作业代码、实验及复习心得。 | MIT |
 | **NJUSE-21-SE2** | [YDJSIR-NJU/NJUSE-21-SE2](https://github.com/YDJSIR-NJU/NJUSE-21-SE2) | 软件工程与计算 II 课程笔记、团队协作大作业模板与踩坑笔记。 | MIT |
-| **NJU_SE_ThesisWritingTips** | [iSEngLab/NJU_SE_ThesisWritingTips](https://github.com/iSEngLab/NJU_SE_ThesisWritingTips) | 软件工程研究所整理的软院毕业设计与学位论文书写规范建议。 | 开源 |
-| **njuse-gitbook** | [coxine/njuse-gitbook](https://github.com/coxine/njuse-gitbook) | ⭐ **南软佛脚玩乐指南**，专属于南京大学软件学院的复习及求学经验总结。 | 开源 |
+| **NJU_SE_ThesisWritingTips** | [iSEngLab/NJU_SE_ThesisWritingTips](https://github.com/iSEngLab/NJU_SE_ThesisWritingTips) | 软件工程研究所整理的软院毕业设计与学位论文书写建议。 | 授权待核验；以学院当年正式规范为准。 |
+| **njuse-gitbook** | [coxine/njuse-gitbook](https://github.com/coxine/njuse-gitbook) | “南软佛脚玩乐指南”，软件学院复习及求学经验总结。 | 授权待核验。 |
 
 ---
 
 ## 🖥️ 4. 官方与王牌课程组资源
 
-由南大计算机系统课程组或教师团队官方公开的教学与实验仓库。
+由南大课程组、教师团队或相关开源组织公开维护的教学与实验仓库。是否为课程官方入口，应以课程主页或仓库 README 为准。
 
 | 仓库/组织 | 链接与作者 | 覆盖范围与特色 | 说明 |
 | :--- | :--- | :--- | :--- |
-| **NJU-ProjectN** | [NJU-ProjectN](https://github.com/NJU-ProjectN) | ⭐ **南大计算机系统王牌课程组官方组织**。包含 NEMU 模拟器、Abstract-Machine、Nanos-lite。 | ICS 与 OS 实验的大本营。 |
+| **NJU-ProjectN** | [NJU-ProjectN](https://github.com/NJU-ProjectN) | 南大计算机系统教学相关组织，包含 NEMU、Abstract-Machine、Nanos-lite 等项目。 | 以各仓库 LICENSE 和课程说明为准。 |
 | **courses-at-nju-by-hfwei** | [courses-at-nju-by-hfwei](https://github.com/courses-at-nju-by-hfwei) | 魏恒峰老师团队维护的系列核心课程讲义与思考题（离散数学、编译原理、C语言等）。 | 讲义质量极其优异。 |
 | **os-workbench-2022** | [os-workbench-2022](https://github.com/NJU-ProjectN/os-workbench-2022) | 蒋炎岩老师操作系统课程实验代码测试框架。 | 并发与系统实验工具。 |
-| **Static-Analysis-Book** | [RangerNJU/Static-Program-Analysis-Book](https://github.com/RangerNJU/Static-Program-Analysis-Book) | ⭐ **《静态程序分析》开源教科书**，李樾、谭添老师软件分析课程的官方配套自学读本。 | 极具全国自学知名度。 |
-| **Tai-e-assignments** | [pascal-lab/Tai-e-assignments](https://github.com/pascal-lab/Tai-e-assignments) | 南大 Tai-e (太阿) 静态分析大作业的官方脚手架框架。 | 静态分析实践首选。 |
+| **Static-Analysis-Book** | [RangerNJU/Static-Program-Analysis-Book](https://github.com/RangerNJU/Static-Program-Analysis-Book) | 《静态程序分析》课程相关开源教材项目。 | 以仓库 LICENSE 为准。 |
+| **Tai-e-assignments** | [pascal-lab/Tai-e-assignments](https://github.com/pascal-lab/Tai-e-assignments) | Tai-e 静态分析实验作业脚手架。README 明确提醒不要公开分享作业解答。 | GitHub 显示 LGPL-3.0；严禁公开解答。 |
 
 ---
 
@@ -99,6 +102,6 @@
 | **modern-nju-thesis** | [nju-lug/modern-nju-thesis](https://github.com/nju-lug/modern-nju-thesis) | 采用下一代排版语言 **Typst** 编写的现代化南大学位论文模板。 |
 | **nju-schedule-ics** | [SuperKenVery/nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics) | 课表转换工具，支持将南大教服平台的课表一键导出为 iCalendar 格式，导入手机日历。 |
 | **NJU-Calendar-Importer-Flutter** | [121mc/NJU_Calendar_Importer_Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter) | ⭐ **南大课表导入日历应用**，采用 Flutter 编写，支持优雅且极其便捷地将南大课表一键导入日历。 |
-| **PedagogySquare_Downloader** | [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) | 教学立方辅助下载工具，支持一键批量下载课程的所有课件 PPT 与作业要求。 |
+| **PedagogySquare_Downloader** | [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) | 教学立方辅助整理工具；仅应在本人有权限访问的课程范围内使用，不得二次公开传播教师课件、作业要求或其他受限资料。 |
 | **NJUlogin** | [Do1e/NJUlogin](https://github.com/Do1e/NJUlogin) | 南京大学统一身份认证登录模块，可用于开发校内各种爬虫、日历转换等。 |
 | **nannahelper-docs** | [nannahelper/docs](https://github.com/nannahelper/docs) | 南哪助手文档，针对南大学生的新手教程与辅助工具开发文档。 |
