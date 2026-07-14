@@ -1,0 +1,14 @@
+[project]
+name = "survive-nju-cs"
+version = "0.0.0"
+description = "Reproducible MkDocs environment for the SurviveNJU-CS site"
+requires-python = "==3.11.*"
+dependencies = [
+    "mkdocs==1.6.1",
+    "mkdocs-material==9.7.6",
+]
+
+[tool.uv]
+package = false
+required-version = "==0.11.16"
+python-preference = "only-managed"

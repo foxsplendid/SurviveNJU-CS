@@ -59,10 +59,10 @@ git clone https://github.com/foxsplendid/SurviveNJU-CS.git
 cd SurviveNJU-CS
 
 # 安装依赖
-pip install mkdocs-material
+uv sync --locked
 
 # 本地预览
-mkdocs serve
+uv run --locked mkdocs serve
 
 # 访问 http://127.0.0.1:8000
 ```
