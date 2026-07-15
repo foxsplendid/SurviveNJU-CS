@@ -1,40 +1,45 @@
 # 实用工具集
 
-「工欲善其事，必先利其器。」在泛CS专业的学习与科研中，合理利用高效的工具能够帮助你省去大量繁琐的机械劳动，把精力集中在核心逻辑上。
+工具可以减少重复录入、改善资料组织或提供开发环境，但选择取决于课程要求、操作系统、数据敏感性和个人工作流。
 
-本篇指南为你整理了在南大学习生活最常用的软件工具链、开发环境配置及南大专属实用程序。
+本页列出一组候选工具和南京大学相关的社区项目。收录不代表学校认可，也不代表它们适合所有课程或设备。
+
+!!! warning "第三方工具与账号安全"
+    本节列出的 GitHub 工具均为学生或社区维护项目，不是南京大学官方服务。优先选择只处理本人导出文件的离线方案；不要向第三方网页、未经审查的发布包或脚本提交统一身份认证密码，也不要粘贴长期有效的 Cookie、Token 或会话信息。运行前应核对仓库、源码、发布者、依赖和最近维护状态，并仅授予完成任务所需的文件、网络或系统权限。
 
 ---
 
-## 🏛️ 1. 南大专属实用工具
+## 🏛️ 1. 南京大学相关社区工具
 
-作为南大在校生，以下几款由本校同学开发、公开维护或常被同学使用的工具，能减少一些重复操作：
+以下项目的公开说明面向南京大学相关场景。维护状态、平台兼容性和数据处理方式可能变化，使用前需重新核验仓库。
 
 ### 📅 课表一键导入日历：nju-schedule-ics & NJU-Calendar-Importer-Flutter
 *   **用途**：将教服平台课表导出或转换后导入系统日历，提醒你上课时间与地点。
 *   **使用工具**：
-    *   👉 **[nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics)**：基于命令行/在线转换，生成标准的 `.ics` 文件，适用于导入 iPhone、安卓或 Outlook 日历。
-    *   👉 **[NJU-Calendar-Importer-Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter)**：采用 Flutter 编写的跨平台课表导入客户端，可将南大课表解析导入日历。
+    *   👉 **[nju-schedule-ics](https://github.com/SuperKenVery/nju-schedule-ics)**：将课表数据转换为标准 `.ics` 文件，适用于导入 iPhone、安卓或 Outlook 日历；优先使用仓库提供的本地处理方式。
+    *   👉 **[NJU-Calendar-Importer-Flutter](https://github.com/121mc/NJU_Calendar_Importer_Flutter)**：采用 Flutter 编写的跨平台课表导入客户端，可将本人课表解析并导入日历。
 *   **效果**：可设置上课前日历提醒，部分工具支持显示上课教室和授课教师，减少手动录入。
+*   **安全边界**：优先导出课表文件后离线转换；任何第三方工具都不应要求你提交统一身份认证密码。课表含姓名、课程与地点等个人信息，上传到在线转换服务前应先确认其数据处理方式。
 
 ### 📥 教学立方批量课件下载：PedagogySquare_Downloader
 *   **用途**：辅助整理自己已选课程、且教学平台允许访问的资料。
 *   **使用边界**：仅应下载你本人有权限访问的课程资料，不得绕过访问控制，不得将教师课件、作业要求、试卷或其他受限资料二次公开传播。
-*   **使用方式**：前往 [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) 查看仓库说明和发布包，按项目文档操作。
+*   **使用方式**：前往 [EricZhu-42/PedagogySquare_Downloader](https://github.com/EricZhu-42/PedagogySquare_Downloader) 查看源码、依赖和发布说明。若工具要求 Cookie、Token 或会话文件，应先确认代码如何读取、保存和发送这些数据；不要提供账号密码，使用后退出相关会话，并按平台能力撤销或更新可能泄露的凭据。
 
-### 🔒 南大 VPN 远程接入 (Ivanti / Pulse Secure)
+### 🔒 南大官方 VPN 与校外资源访问
 *   **用途**：在校外访问部分校内系统或图书馆订阅数据库时，通常需要连接南大官方 VPN。
-*   **配置入口**：访问“南大信息化建设管理服务中心”，在服务指南中搜索“VPN”，根据操作系统下载对应的 Pulse Secure 客户端，并使用校内统一身份认证账号登录。
+*   **官方入口**：[南京大学信息化建设管理服务中心“校外 VPN”服务页](https://itsc.nju.edu.cn/21601/list.htm)。
+*   **配置原则**：VPN 平台、客户端和下载地址可能调整，只从上述官方服务页或信息中心最新公告进入，并以页面当时列出的客户端和操作说明为准。本指南不固定客户端名称或临时访问域名；登录前应确认入口来自南京大学官方页面，避免使用搜索广告、网盘安装包或第三方镜像。
 
 ---
 
-## 💻 2. 个人高效学习工具链
+## 💻 2. 个人学习工具候选
 
 | 工具名称 | 分类 | 主要用途与特色 | 官方链接/获取方式 |
 | :--- | :--- | :--- | :--- |
-| **Obsidian** | 笔记管理 | 纯文本、本地优先的 Markdown 知识库软件。支持双向链接，适合整理复杂的专业课脑图与知识网络。 | [Obsidian 官网](https://obsidian.md) |
-| **Zotero** | 文献检索 | 开源免费的论文管理利器。大二、大三做科研或写毕业设计时，可一键抓取网页端 PDF 和论文元数据。 | [Zotero 官网](https://www.zotero.org) |
-| **Anki** | 记忆卡片 | 采用间隔重复（Spaced Repetition）算法。适合期末前高强度记忆公共课概念、Linux 常用命令行及数学公式。 | [Anki 官网](https://apps.ankiweb.net) |
+| **Obsidian** | 笔记管理 | 以本地 Markdown 文件为基础并支持双向链接；同步方式和第三方插件需自行选择与审查。 | [Obsidian 官网](https://obsidian.md) |
+| **Zotero** | 文献管理 | 开源文献管理软件，可保存书目信息并通过连接器抓取部分网页元数据；全文可用性取决于来源与访问权限。 | [Zotero 官网](https://www.zotero.org) |
+| **Anki** | 记忆卡片 | 支持间隔重复，可用于需要重复回忆的概念、术语和公式；不替代推导、编程与综合练习。 | [Anki 官网](https://apps.ankiweb.net) |
 | **Overleaf** | LaTeX 写作 | 在线的 LaTeX 编辑和协作平台，适合与同学合作撰写报告或论文；机构权限情况请以学校当前通知为准。 | [Overleaf 官网](https://www.overleaf.com) |
 
 ---
@@ -42,16 +47,16 @@
 ## 🛠️ 3. 开发环境与终端效率配置
 
 ### 1. Linux 环境搭建
-南大泛CS方向的多门实验课（尤其是系统类课程）通常要求 Linux 或类 Unix 开发环境；具体系统版本和依赖请以课程实验指导为准。常见搭建方案如下：
-*   **方案一：WSL2 (Windows Subsystem for Linux)**（最推荐 Windows 用户）：
-    *   在 Windows 11 中安装 Ubuntu 子系统。它与 Windows 文件系统互通，方便用 VS Code 编辑和调试代码。
-    *   **安装命令**：在 PowerShell 中执行 `wsl --install`。
+部分实验课会指定 Linux、虚拟机、容器或课程镜像；应先读取当期实验指导，再选择环境。常见方案如下：
+*   **方案一：WSL2 (Windows Subsystem for Linux)**：
+    *   适用于受支持的 Windows 版本，可运行 Linux 发行版并与 Windows 工具配合。文件系统性能、网络和系统调用行为与原生 Linux 并非完全一致，课程若指定虚拟机或物理机环境，应服从课程要求。
+    *   **安装入口**：使用 [Microsoft WSL 官方文档](https://learn.microsoft.com/windows/wsl/install) 核对系统要求和当前命令，不依赖过时教程。
 *   **方案二：双系统 (Dual Boot)**：
-    *   如果电脑配置允许，可以直接在电脑上安装 Windows + Ubuntu 双系统，获得最纯粹的 Linux 硬件算力支持。
+    *   可提供原生 Linux 环境，但分区、引导、磁盘加密和数据迁移存在风险。操作前备份重要数据并阅读所用发行版的官方安装文档；仅为一门课程通常不必贸然重分区。
 
-### 2. VS Code 推荐插件
-作为泛CS学生的通用编辑器，VS Code 搭配以下插件能让你事半功倍：
+### 2. VS Code 插件示例
+仅在课程允许且确有需要时安装插件，并核对发布者、权限和工作区信任提示：
 *   **C/C++** (Microsoft)：提供语法高亮、IntelliSense 代码自动补全。
-*   **GitLens**：可视化 Git 历史，清晰查看每一行代码是谁在什么时间提交的，团队协作大作业必备。
-*   **Remote - WSL**：如果你使用 WSL2，该插件可以让你直接在 Windows 的 VS Code 窗口中编辑、调试 WSL2 内的代码，体验极佳。
-*   **Markdown All in One**：完美支持 Markdown 预览与快捷键，编写实验报告（Report）的利器。
+*   **GitLens**：提供 Git 历史和 blame 等视图；blame 只反映当前可追踪提交，不能证明代码实际作者或贡献归属。
+*   **WSL**：在 Windows 的 VS Code 界面中连接 WSL 环境；名称和安装方式以 Microsoft 当前扩展页面为准。
+*   **Markdown All in One**：提供 Markdown 编辑快捷方式；报告格式仍以课程指定模板和渲染结果为准。

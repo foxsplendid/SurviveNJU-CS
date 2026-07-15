@@ -1,68 +1,68 @@
 # 在线课程推荐
 
-「大学课堂上老师由于学时限制只能讲授最核心的框架。如果想真正融会贯通，参考公开课程、跟着写其配套实验（Labs），是跨越‘新手期’的一条有效路径。」
+公开课程和实验可以补充课堂学习，但网页上的教师名单、考核比例、作业数量、讨论入口和校外评测权限都可能随学期变化。本页只描述当前页面可确认的资源范围，不把历史课程页当作南京大学当期教学安排。
 
-本篇指南汇总南京大学本校公开课程，以及国内外常被 CS 自学者推荐的经典公开课。
+!!! warning "资源来源不等于学校官方发布"
+    `nju.edu.cn` 之外的课程网站、GitHub Pages 和仓库可能由授课者、课程团队、研究组、学生或第三方社区维护。它们可以是一手教学资料，但不因此成为南京大学校级官方页面。当前课程要求始终以教务系统和课程团队当学期通知为准。
 
 ---
 
-## 🏛️ 1. 南京大学本校公开课程与课程页
+## 🏛️ 1. 南京大学相关一手教学资料
 
-南大在操作系统、编译原理、离散数学、静态分析等方向有多门公开教学资源，适合作为校内课程的补充。
-
-| 课程名称 | 主讲人 | 平台与获取方式 | 课程特色与建议 |
+| 课程或主题 | 维护与来源性质 | 可确认的公开内容 | 使用边界 |
 | :--- | :--- | :--- | :--- |
-| **《操作系统：设计与实现》** | 蒋炎岩 (jyy) | [jyy Wiki](https://jyywiki.cn/) / Bilibili 搜索 | 从状态机和 API 视角讲授，配套 OSLab/MiniLab 等实验，适合已经具备 C 语言基础的同学进阶。 |
-| **《计算机系统基础》 (ICS)** | 袁春风 / 蒋炎岩 / 汪亮等 | [PA 指导书](https://nju-projectn.github.io/ics-pa-gitbook/) / [ICS Wiki](https://njuics-wiki.github.io/ics-wiki/Course/ICS/) / Bilibili 搜索 | 配套 PA/NEMU 模拟器实验。ICS Wiki 可作为学生经验入口，但成绩比例、班级情况和给分信息要按年份核验。 |
-| **《离散数学》** | 魏恒峰 | [GitHub 讲义](https://github.com/courses-at-nju-by-hfwei) / Bilibili | 理论极其严谨，配套的 slides 逻辑清晰，是训练数学证明思维的首选。 |
-| **《编译原理》** | 魏恒峰等 | [CS 自学指南：NJU 编译原理](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/NJU-Compilers/) / [课程网站](http://docs.compilers.cpl.icu/) | 公开资料显示近年实践路线常围绕 Java 与 ANTLR 4 展开，适合把龙书理论和编译器实现结合起来学习。 |
-| **《静态程序分析》** | 李樾 / 谭添 | [PASCAL 组官网](https://pascal-group.bitbucket.io/pas.html) / [CS 自学指南：NJU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/) / Bilibili | 配套 Tai-e 实验、在线评测和公开教材，理论与工程结合较强，适合大三以后、有 Java 基础的同学。 |
-
-!!! note "关于 csdiy.wiki 中的 NJU 课程"
-    CS 自学指南目前将多门 NJU 课程放入对应自学路线，例如 NJU OS 位于操作系统方向，NJU 编译原理位于编译原理方向，NJU 软件分析位于编程语言设计与分析方向。它适合用来定位课程难度、先修要求和公开资源入口；涉及课程作业、评测机开放范围、Zulip/讨论入口和教师安排时，仍应以课程官网当前说明为准。
+| **操作系统：设计与实现** | [Yanyan's Wiki](https://jyywiki.cn/)，个人课程站点 | 当前课程入口及往年课程存档 | 页面内容按学期更新；只把对应学期页面用于了解该学期安排。 |
+| **计算机系统基础实验（PA）** | [PA 实验指导书](https://nju-projectn.github.io/ics-pa-gitbook/)，课程项目文档 | 多个学年的实验指导书入口 | 不据此推断所有教学班都采用同一实验、架构或考核方式。 |
+| **离散数学讲义** | [公开讲义仓库](https://github.com/courses-at-nju-by-hfwei/discrete-math-lectures)，GitHub 课程资料仓库 | 讲义源码、阅读材料与历史周历 | 仓库是公开教学材料，不代表当前学期仍按历史周历授课。 |
+| **编译原理讲义** | [公开讲义仓库](https://github.com/courses-at-nju-by-hfwei/compilers-lectures)，GitHub 课程资料仓库 | 历年讲义目录及配套资源 | 这是资料仓库而非已确认的当前课程主页；作业语言、工具和数量需另查当期通知。 |
+| **软件分析 / Tai-e** | [Tai-e 教学与课程主页](https://tai-e.pascal-lab.net/)，课程项目站点 | 教学版项目、实验页面、公开代码及课程视频入口 | 公开页面不保证在线评测或讨论系统向所有校外用户开放，也不说明当前校内考核比例。 |
 
 ---
 
-## 🌍 2. 国外 CS 公开课 (对标自学路线)
+## 👥 2. 学生社区与第三方课程索引
 
-如果你在修读南大某门必修课时感到吃力，或者想追求更具工程挑战性的实验，可以同步选修以下国外名校公开课。它们通常拥有极其完善的**自动评测机 (Autograder)** 供校外自学者使用。
+以下页面不是南京大学官方课程页，也不是课程要求的权威来源：
 
-### 🖥️ 系统与网络方向
-*   **CSAPP / CMU 15-213: Introduction to Computer Systems**：
-    *   **平台**：CMU 官网 / Bilibili
-    *   **对标课程**：南大《计算机系统基础》
-    *   **推荐理由**：配套 Data Lab、Bomb Lab、Attack Lab、Cache Lab 等经典实验，是系统方向自学的高质量补充。
-*   **MIT 6.S081: Operating System Engineering**：
-    *   **平台**：MIT OCW / Bilibili
-    *   **对标课程**：南大《操作系统》
-    *   **推荐理由**：基于 XV6 操作系统手写内核模块，是自学操作系统开发的不二之选。
-*   **Stanford CS144: Introduction to Computer Networking**：
-    *   **平台**：斯坦福官网
-    *   **对标课程**：南大《计算机网络》
-    *   **推荐理由**：大作业要求用 C++ 实现 TCP 协议栈的一部分，适合加深对可靠传输和网络分层的理解。
+| 资源 | 来源性质 | 建议用途 |
+| :--- | :--- | :--- |
+| **[ICS Wiki](https://njuics-wiki.github.io/ics-wiki/Course/ICS/)** | 学生社区维护 | 可用于发现经验和资源入口；其中教师评价、班级差异、考核比例、考试与给分描述均需回到当期课程通知核验。 |
+| **[CS 自学指南：NJU 操作系统](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJUOS/)** | 第三方社区自学指南 | 页面主要记录 2022 版课程及作者自学体验，其中“5 个 MiniLab、4 个 OSLab”等描述不是 2026 课程事实；用于理解课程思路时应同时打开对应年份的课程页。 |
+| **[CS 自学指南：NJU 编译原理](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/NJU-Compilers/)** | 第三方社区自学指南 | 可作为学习路线和外部资源索引，不据此判断当前作业、评测、讨论群或教师安排。 |
+| **[CS 自学指南：NJU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/)** | 第三方社区自学指南 | 可辅助了解主题与先修建议；课程事实应回到 Tai-e 页面和当期通知。 |
 
-### 🧮 算法与数学方向
-*   **MIT 6.006: Introduction to Algorithms**：
-    *   **平台**：MIT OCW / Bilibili
-    *   **对标课程**：南大《数据结构与算法》
-    *   **推荐理由**：对常见算法（二叉树、红黑树、动态规划、图论最短路）的物理意义和复杂度证明极其透彻。
-
-### 🤖 人工智能与机器学习方向
-*   **CS231n: Convolutional Neural Networks for Visual Recognition**：
-    *   **平台**：斯坦福官网 / Bilibili
-    *   **对标课程**：南大《计算机视觉》/《深度学习》
-    *   **推荐理由**：由李飞飞教授团队创立，早期作业强调手写反向传播和卷积层，适合打牢深度学习基础。
-*   **吴恩达 (Andrew Ng) 机器学习微专业**：
-    *   **平台**：Coursera / Bilibili
-    *   **推荐理由**：数学门槛低，直观展示算法作用，适合大一/大二零基础快速对 AI 建立全局认识。
+2026-07-14 检查 [CS 自学指南源仓库](https://github.com/PKUFlyingPig/cs-self-learning) 文件树时，名称中含 `NJU` 的中文课程专页即上述操作系统、编译原理和软件分析三项；英文文件是对应页面的翻译，不另计课程。该结论只描述当日仓库目录，后续新增页面应在复核时补入。
 
 ---
 
-## 🧠 学长自学方法谈：如何高效“刷网课”
+## 🌍 3. 校外大学公开课程
 
-1.  **“不做实验等于没学”**：
-    *   看公开课视频只占你学习的 20%，真正的灵魂在于**写配套实验（Labs）**。只有在被 Bug 虐得死去活来、查阅上百页手册后终于通过 Autograder 的那一刻，你才算真正掌握了这门课。
-2.  **合理安排节奏**：
-    *   不要试图在一周内刷完一门课。保持每周看 2-3 个 Lectures，写完配套的 Assignment，跟学校的教学进度同步进行。
-3.  **多利用开源社区的 Writeups**：
-    *   在写 MIT 6.S081 或 CS144 遇到瓶颈时，GitHub 上有成百上千个前人写的实验踩坑笔记（Writeups）。**看思路，不抄代码**，是自学的高效姿势。
+下表链接课程所属大学或课程团队的页面。这里的“建议用途”是本指南给出的自学建议，不表示与南京大学课程一一对应。
+
+| 课程 | 一手入口 | 建议用途与访问说明 |
+| :--- | :--- | :--- |
+| **CMU 15-213: Introduction to Computer Systems** | [CMU 课程页](https://www.cs.cmu.edu/~213/) | 建议用于补充程序员视角的计算机系统知识。课程页会随学期更新，部分提交、讨论与评测服务只面向选课学生。 |
+| **MIT 6.1810: Operating System Engineering**（原 6.S081） | [MIT PDOS 2025 课程存档](https://pdos.csail.mit.edu/6.1810/2025/) | 建议结合 xv6 阅读实验说明和源码；存档可达不代表当前仍接受外部提交。 |
+| **Stanford CS144: Introduction to Computer Networking** | [课程团队页面](https://cs144.github.io/) | 建议通过网络协议与编程实验加深理解。公开讲义、代码和校内 Canvas 的访问范围不同。 |
+| **MIT 6.006: Introduction to Algorithms** | [MIT OpenCourseWare](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) | 官方 OCW 存档包含讲义、视频与习题，适合补充算法设计、正确性与复杂度分析。 |
+| **Stanford CS231n: Deep Learning for Computer Vision** | [Stanford 课程页](https://cs231n.stanford.edu/) | 建议已有 Python、微积分、线性代数和概率基础后使用。当前页面明确区分公开资料与仅选课学生可访问的课程视频。 |
+
+### 商业第三方课程平台
+
+**[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)** 由 DeepLearning.AI 与 Stanford Online 合作并通过 Coursera 提供。它是商业第三方平台课程，不是南京大学课程；注册、免费旁听、付费、证书和作业访问范围以 Coursera 当前页面为准。本指南仅建议需要结构化机器学习入门路线的读者评估其内容是否合适。
+
+---
+
+## 🧠 4. 自学建议
+
+1. **先确认范围**：阅读课程首页、先修要求、许可证和访问说明，再决定使用视频、讲义还是实验。
+2. **以产出安排节奏**：可以按“读完一个主题并完成一个公开练习”制定计划，不必追求固定的每周视频数量。
+3. **不要假设评测可用**：外部用户无法使用 Autograder、Canvas、Gradescope、讨论区或课程机器时，可依据公开测试、样例和自测脚本验证，但不要尝试绕过访问控制。
+4. **遵守学术诚信**：先查看课程对协作、参考代码和公开答案的规则。不要复制仍在使用的作业答案，也不要把课程可访问等同于允许重新分发。
+5. **回到校内要求**：校外课程适合补充概念和实验，不替代南京大学当期课程指定的环境、提交方式和考核要求。
+
+## 来源与核验
+
+*   表中一手入口均于 2026-07-14 打开核验；学生社区和第三方平台已单独标注。
+*   原编译课程地址 `docs.compilers.cpl.icu` 在本轮 HTTPS 核验中超时，且原链接使用明文 HTTP，因此不再保留；改用可访问的公开讲义仓库。
+*   最后核验：2026-07-14
+*   复核要求：每学期重新确认课程入口、公开范围、许可证和学术诚信规则

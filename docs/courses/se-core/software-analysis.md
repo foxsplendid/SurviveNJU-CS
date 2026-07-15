@@ -1,62 +1,56 @@
 # 软件分析
 
-*   **课程学分**：3 学分
-*   **授课学期**：大三秋季学期
-*   **授课教师**：李樾副教授、谭添助理研究员（PASCAL 科研组）
-*   **修读阶段**：软件学院必修课 / 计算机系选修课
+!!! info "课程归属与导航说明"
+    [PASCAL 研究组官网](https://pascal-lab.net/) 显示该组隶属南京大学计算机软件研究所和计算机学院，并链接 Software Analysis 教学资源。本页放在 `se-core` 目录是按“软件质量”主题归档，不足以证明该课属于软件学院必修，也不能据此固定教师、学分或开课学期；这些信息应以所在年级培养方案和教务系统为准。
 
----
+## 课程解决什么问题
 
-## 🌟 课程简介与地位
+静态程序分析在不执行所有可能输入的前提下，对程序行为作保守近似，用于推断数据流性质、调用关系、指针指向和潜在安全问题。它通常需要在以下目标之间权衡：
 
-由李樾和谭添老师开设的《软件分析》（Software Analysis）是一门高强度的高级课程，聚焦于**静态程序分析（Static Program Analysis）**领域。
+- **健全性（Soundness）**：在给定模型和假设下，尽量不漏掉目标行为；
+- **精度（Precision）**：减少因近似产生的误报；
+- **可扩展性（Scalability）**：在可接受时间和内存内分析真实程序。
 
-> **“在不实际运行程序的前提下，我们如何通过静态代码推导，证明程序在所有可能的执行路径中都不会发生空指针异常、内存泄漏或安全漏洞？”**
+静态分析结果依赖语言模型、分析假设和实现正确性，不能被表述为“证明所有执行路径都不存在空指针、内存泄漏或安全漏洞”。
 
-本课程的公开视频、教材和实验在静态分析自学圈中有较高知名度。其实验体系基于南大自主开发并开源的 **Tai-e (太阿) 静态分析框架**，大作业要求你亲自动手实现从指针分析到安全缺陷检测的各个分析模块。
+## 理论知识地图
 
-[CS 自学指南](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/) 将 NJU 软件分析列入“编程语言设计与分析”方向的课程资源。阅读外部课程评价时，要注意区分课程官网、开源教材、Tai-e 框架、在线评测和学生经验帖：前几者可作为学习入口，后者只能作为体验参考。
+- **中间表示**：三地址码、控制流图（CFG）及程序点之间的数据依赖。
+- **数据流分析**：Live Variables、Constant Propagation、Reaching Definitions、不动点迭代和工作列表算法。
+- **格与单调框架**：偏序、上确界/下确界、传递函数和收敛条件。
+- **过程间分析**：调用图、CHA 等调用关系近似，以及过程间数据流传播。
+- **指针分析**：Andersen 风格的包含约束、上下文不敏感/敏感分析及精度与成本权衡。
+- **缺陷与安全分析**：死代码、别名影响、污点传播等应用。
 
----
+这些是公开教学资料反映的主题范围，不是某一届固定考试清单。
 
-## 📚 核心理论与 Tai-e 实验
+## Tai-e 实践模块
 
-### 1. 核心理论知识点
-*   **静态分析导论**：声音性（Soundness）、完备性（Completeness）以及不可判定性（Undecidability - 莱斯定理）。
-*   **中介表示 (IR)**：三地址码（3AC）与控制流图（CFG）的构建。
-*   **数据流分析 (Data Flow Analysis)**（高频考点）：
-    *   活跃变量分析 (Active Variables)、常量传播 (Constant Propagation)、可达定义分析 (Reaching Definitions)。
-    *   **格理论 (Lattice Theory)** 与不动点（Fixed Point）定理：偏序集、上确界、半格、单调框架（Monotonic Framework）。
-*   **过程间分析 (Interprocedural Analysis)**：
-    *   调用图构建：CHA (Class Hierarchy Analysis)、RTA (Rapid Type Analysis)。
-*   **指针分析 (Pointer Analysis)**（重难点）：
-    *   Anderson 指针分析算法原理。
-    *   上下文敏感性分析（Context Sensitivity）。
+[Tai-e 教学与课程主页](https://tai-e.pascal-lab.net/) 是公开课程和实验信息的一手入口。页面当前列有递进作业，但编号、合并方式和提交接口仍应以修课当期通知为准，因此本指南只保留不编号的能力模块：
 
-### 2. Tai-e 静态分析实验 (Assignments)
-你将在 Java 编写的 **Tai-e 框架** 上完成 8 个逐步深入的实验：
-*   **Assignment 1 (Constant Propagation)**：实现控制流图上的常量传播分析。
-*   **Assignment 2 (Active Variables & Dead Code Detection)**：实现活跃变量分析并在此基础上检测死代码。
-*   **Assignment 7 & 8 (Pointer Analysis)**：实现带有上下文敏感特性的 Anderson 指针分析。
+- 活跃变量分析（Live Variable Analysis）；
+- 常量传播与死代码检测；
+- 调用图构建和过程间常量传播；
+- 上下文不敏感与上下文敏感的指针分析；
+- 利用别名信息改进过程间分析；
+- 污点分析等安全应用。
 
----
+修课时必须以当年主页分发的框架、任务说明、测试接口和截止时间为准，不要把公开概览中的旧顺序当作现行八次作业。
 
-## 💡 备考与学习攻略
+## 学习方法
 
-1.  **课前高强度预习，紧跟课程视频**：
-    *   课程的理论深度极大。李樾老师和谭添老师在 Bilibili 上录制了全套配套视频。**强烈建议在每次上课前，先看一遍对应的 B 站视频**，理清基本概念，否则现场听课很容易在“格”和“不动点证明”部分跟丢。
-2.  **熟记数学符号与转移方程**：
-    *   期末考试包含大量的理论推理与算法推演。你需要熟练手写出数据流分析的转移方程（Transfer Functions）以及格的汇聚操作（Meet Operator）。
-3.  **大作业代码重构与调试**：
-    *   Tai-e 的代码设计非常优雅，符合极高的面向对象设计模式规范。在写实验前，花时间理清 Tai-e 的类层次结构，理解 `Value`、`Statement`、`Method` 等核心数据类型。
+1. **先写清抽象域和传递函数**：明确格元素、合并操作、边界值以及每条 IR 语句如何改变数据流事实。
+2. **用极小程序验证分析**：分别覆盖分支、循环、不可达代码、递归、动态分派和别名，检查结果为何变化。
+3. **区分健全性与实现缺陷**：出现漏报或误报时，先判断是设计取舍、模型假设还是实现错误。
+4. **只使用指定框架版本**：Tai-e 主仓库持续演进，当前源码 API 不一定与某届课程框架一致。
 
----
+!!! danger "学术诚信警告"
+    Tai-e 作业通常要求独立实现核心分析逻辑。不要查找、复制、改写或传播往届学生实现、评测样例答案和实验报告，也不要让生成式 AI 代写可提交代码。公开论文、教材和框架文档可用于理解算法；协作、代码复用与 AI 工具的允许范围必须以当年书面规则为准。提交者应能解释抽象域、传递函数、复杂度和每一处实现选择。
 
-## 🔗 推荐资源
+## 参考资料
 
-*   🌐 **[南大《软件分析》课程官方网站](https://pascal-group.bitbucket.io/pas.html)**：存放全套 Slides 和 Assignment 要求的官网。
-*   📖 **[《静态程序分析》开源教科书](https://github.com/RangerNJU/Static-Program-Analysis-Book)**：⭐ **课程官方配套的开源书籍项目**，基于李樾、谭添老师课程内容整理，自学程序分析的最佳文字指南。
-*   🖥️ **[Tai-e (太阿) 官方 GitHub 仓库](https://github.com/pascal-lab/Tai-e)**：南大开源的静态程序分析核心框架。
-*   ⚙️ **[Tai-e Assignments 实验框架](https://github.com/pascal-lab/Tai-e-assignments)**：课程配套的静态分析实验作业脚手架代码仓库。
-*   🎥 **[Bilibili 静态程序分析公开课视频](https://search.bilibili.com/all?keyword=南京大学软件分析)**：李樾和谭添老师的录制视频，适合作为课前预习和课后复习材料。
-*   🧭 **[CS 自学指南：NJU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/)**：第三方课程介绍，概括了先修要求、Java 实验、Tai-e 作业和在线评测入口，用于快速定位这门课与 Stanford CS242、PKU 软件分析等课程的相对位置。
+- [Tai-e 教学与课程主页](https://tai-e.pascal-lab.net/)
+- [PASCAL Research Group](https://pascal-lab.net/)
+- [Tai-e 官方仓库](https://github.com/pascal-lab/Tai-e)：框架本身的公开源码，不等同于某届作业答案。
+- [Static Program Analysis Book](https://github.com/RangerNJU/Static-Program-Analysis-Book)：公开教材仓库，使用时核对其版本与课程进度。
+- [CS 自学指南：NJU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/)：第三方课程索引，经验性评价不能作为课程规则依据。

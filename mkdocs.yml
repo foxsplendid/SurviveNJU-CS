@@ -1,13 +1,13 @@
-site_name: SurviveNJU-CS | 面向南京大学泛CS同学的非官方学习资源索引
+site_name: SurviveNJU-CS | 南京大学泛 CS 学习与校园生存指南
 site_url: https://foxsplendid.github.io/SurviveNJU-CS/
-site_description: 南京大学泛 CS 方向的非官方学习、生存与发展指南
+site_description: 南京大学泛 CS 方向的非官方学习、办事与发展指南
 site_author: SurviveNJU-CS Contributors
 repo_name: SurviveNJU-CS
 repo_url: https://github.com/foxsplendid/SurviveNJU-CS
 
 copyright: >
-  本作品采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a> 许可证。
-  本站为公益性质的聚合平台，仅为更好地服务南京大学在校同学。
+  贡献者有权授权的本站原创文字内容采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a>；第三方材料不在此许可范围内。
+  本站为非官方、公益、非营利的指南与公开资源索引。
 
 theme:
   name: material
@@ -106,20 +106,21 @@ nav:
   - 新生入门:
     - getting-started/index.md
     - 泛CS专业概览: getting-started/cs-overview.md
-    - 转专业完全指南: getting-started/major-transfer.md
-    - 正确的学习思维: getting-started/mindset.md
+    - 转专业指南: getting-started/major-transfer.md
+    - 学习方法与节奏: getting-started/mindset.md
     - 信息素养与资源获取: getting-started/info-literacy.md
 
-  - 学业生存:
+  - 学业规则:
     - academics/index.md
     - 选课策略与技巧: academics/course-selection.md
     - GPA与绩点解读: academics/gpa-guide.md
+    - 学籍与学业程序: academics/student-procedures.md
     - 期末备考攻略: academics/exam-prep.md
     - 学术诚信: academics/academic-integrity.md
 
-  - 课程攻略:
+  - 课程指南:
     - courses/index.md
-    - 计算机系核心课程:
+    - 计算机学院核心课程:
       - courses/cs-core/index.md
       - 计算机系统基础 (ICS): courses/cs-core/ics.md
       - 操作系统: courses/cs-core/os.md
@@ -141,19 +142,20 @@ nav:
       - 软件工程与计算: courses/se-core/se-computing.md
       - 软件分析: courses/se-core/software-analysis.md
       - 软件测试: courses/se-core/software-testing.md
+    - 苏州校区泛 CS 院系: courses/suzhou-colleges.md
     - 数理基础:
       - courses/math-foundation/index.md
       - 高等数学与数学分析: courses/math-foundation/calculus.md
       - 线性代数: courses/math-foundation/linear-algebra.md
       - 概率论与数理统计: courses/math-foundation/probability.md
       - 离散数学: courses/math-foundation/discrete-math.md
-    - 通识课推荐:
+    - 通识课选择:
       - courses/general-education/index.md
 
   - 资源导航:
     - resources/index.md
     - GitHub 公开资源索引: resources/github-repos.md
-    - 在线课程推荐: resources/online-courses.md
+    - 在线课程: resources/online-courses.md
     - 实用工具集: resources/tools.md
     - 推荐书单: resources/books.md
     - 往年考试与复习资源: resources/past-exams.md
@@ -162,16 +164,19 @@ nav:
   - 升学与就业:
     - career/index.md
     - 考研指南: career/postgrad-exam.md
-    - 保研经验: career/recommendation.md
-    - 出国留学与飞跃手册: career/study-abroad.md
+    - 推免信息与经验: career/recommendation.md
+    - 境外升学与申请手册: career/study-abroad.md
     - 实习与求职: career/internship.md
     - 科研入门: career/research.md
 
-  - 实验室导航:
+  - 研究与实验室:
     - labs/index.md
 
   - 校园生活:
     - campus-life/index.md
+    - 紧急情况与校园求助: campus-life/emergency.md
+    - 校医院与心理支持: campus-life/healthcare.md
+    - 校园办事与公共服务: campus-life/campus-services.md
+    - 心理健康与危机求助: campus-life/mental-health.md
     - 社团与技术组织: campus-life/clubs.md
     - 竞赛指南: campus-life/competition.md
-    - 心理健康与压力管理: campus-life/mental-health.md
